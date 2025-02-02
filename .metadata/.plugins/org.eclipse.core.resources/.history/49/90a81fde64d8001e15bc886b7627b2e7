@@ -1,0 +1,25 @@
+package dailydairy;
+
+import java.util.Scanner;
+
+public class CountDigitsinaNumber {
+	public static void main(String []args)
+	{
+	  Scanner sc=new Scanner(System.in);
+      int n=sc.nextInt();
+      int v= countDigits(n);
+      System.out.print(v);
+	}
+	static int countDigits(int k)
+	{
+		int c=0;
+		while(k>0)
+		{
+			k=k%10;
+			//k=k/10;
+			c++;
+			
+		}
+		return c;
+	}
+}

@@ -1,0 +1,18 @@
+/*
+  
+ */
+
+
+package corejava;
+
+public class Mutablestrings__1 {
+	public static void main(String []args)
+	{
+		String s="RajaRamMohanRoy";
+		//String s1=s.toLowerCase();
+		System.out.println(s.toLowerCase());
+		System.out.println(s.toUpperCase());
+		System.out.println(s.contains("mohan"));
+	}
+
+}

@@ -1,0 +1,26 @@
+package dailydairy;
+
+import java.util.Scanner;
+
+public class MultiplesOfaGivenNum {
+	public static void main(String []args)
+	{
+	  Scanner sc=new Scanner(System.in);
+      int n=sc.nextInt();
+      int v=multiplesOfaGivenNUm(n);
+      System.out.print(v);
+	}
+	static int multiplesOfaGivenNUm(int k)
+	{ 
+		//int j=(k<l)?k:l;
+        for(int i=1; i<=k;i++)  
+        {
+        	if(i%k==0)
+        	{
+               System.out.print(i+" ");	
+        	}	
+        }
+        return 0;
+
+}
+}

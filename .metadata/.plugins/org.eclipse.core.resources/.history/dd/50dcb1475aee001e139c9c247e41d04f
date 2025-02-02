@@ -1,0 +1,16 @@
+
+
+
+package corejava;
+
+public class MutableStrings__2_1 {
+ public static void main(String []args)
+ {
+	 StringBuffer st=new StringBuffer();
+	 System.out.println(st.capacity());
+	 st.append("java");
+	 System.out.println(st); //for mutable Strings we use concate or + to attach new String ... in immutable Strings we have to use append.
+	 st.append(false);
+	 System.out.println(st);
+ }
+}

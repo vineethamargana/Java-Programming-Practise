@@ -1,0 +1,23 @@
+/*
+ * errors:
+ * -------
+  1.compilation time error:
+    these are the mistakes which are occur during compilation time(syntax error)
+    
+  2.run time error:
+      these are the mistakes which are occur during run time(lack of system resources)
+      ex:array index if we give max_value for n value
+  
+ * exception:
+ * ----------
+  1.compilation time:
+   
+  2.run time
+ */
+
+
+package corejavaexceptionhandling;
+
+public class DifferencebetweenExceptionanderror {
+
+}

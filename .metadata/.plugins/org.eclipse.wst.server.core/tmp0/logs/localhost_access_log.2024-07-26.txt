@@ -1,0 +1,15 @@
+127.0.0.1 - - [26/Jul/2024:07:28:50 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [26/Jul/2024:07:28:50 +0530] "GET /RegisterApp/ HTTP/1.1" 404 767
+0:0:0:0:0:0:0:1 - - [26/Jul/2024:07:28:50 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [26/Jul/2024:07:29:15 +0530] "GET /RegisterApp/Register.html HTTP/1.1" 200 1093
+127.0.0.1 - - [26/Jul/2024:08:41:48 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [26/Jul/2024:08:41:49 +0530] "GET /RegisterApp/ HTTP/1.1" 404 767
+127.0.0.1 - - [26/Jul/2024:09:07:38 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [26/Jul/2024:09:07:39 +0530] "GET /RegisterApp/ HTTP/1.1" 200 1101
+0:0:0:0:0:0:0:1 - - [26/Jul/2024:09:09:50 +0530] "GET /RegisterApp/sendData?name=vineetha&email=durgarao7600%40gmail.com&phoneNumber=06300793134&password=jkl&cpassword=jkl&address=Jhb HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jul/2024:09:22:07 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [26/Jul/2024:09:22:08 +0530] "GET /RegisterApp/Register.html HTTP/1.1" 200 1101
+0:0:0:0:0:0:0:1 - - [26/Jul/2024:09:23:10 +0530] "GET /RegisterApp/sendData?name=vineetha&email=marganavineetha1711%40gmail.com&phoneNumber=6300793134&password=hii&cpassword=hii&address=Jhb HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [26/Jul/2024:09:27:34 +0530] "GET /RegisterApp/sendData?name=vineetha&email=marganavineetha1711%40gmail.com&phoneNumber=6300793134&password=hii&cpassword=hii&address=Jhb HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [26/Jul/2024:09:27:36 +0530] "GET /RegisterApp/sendData?name=vineetha&email=marganavineetha1711%40gmail.com&phoneNumber=6300793134&password=hii&cpassword=hii&address=Jhb HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [26/Jul/2024:09:27:41 +0530] "GET /RegisterApp/sendData?name=vineetha&email=marganavineetha1711%40gmail.com&phoneNumber=6300793134&password=hii&cpassword=hii4&address=Jhb HTTP/1.1" 200 38

@@ -1,0 +1,16 @@
+/*
+  
+ */
+
+
+package corejava;
+
+public class Mutablestrings__1 {
+	public static void main(String []args)
+	{
+		String s="RajaRamMohamRoy";
+		//String s1=s.toLowerCase();
+		System.out.println(s.toLowerCase());
+	}
+
+}

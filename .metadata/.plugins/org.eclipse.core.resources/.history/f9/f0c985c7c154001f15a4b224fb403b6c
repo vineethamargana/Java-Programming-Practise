@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+   <center>
+      <h1>Welcome to Demo page</h1>
+      <form action= "demo">
+          <!-- 
+          Enter Firstname <input type="text" name="fname"><br>
+          Enter Lastname <input type="text" name="lname"><br>
+          <input type="submit" value="Send data"><br>
+           -->
+         
+          Enter Email <input type="email" name="email"><br>
+          Enter password <input type="password" name="password"><br>
+         <input type="submit" value="Send data"><br>
+      </form>
+   </center>
+</body>
+</html>

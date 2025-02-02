@@ -1,0 +1,32 @@
+package array;
+import java.util.Scanner;
+
+public class Arrayintro {
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.print("enter the size of array:");
+		int n=sc.nextInt();
+		int[] a=new int[n];
+		for(int i=0;i<a.length;i++)
+		{
+			System.out.print("enter the elements:");
+			a[i]=sc.nextInt();
+		}
+		 printelements(a);
+		// System.out.print("the elements are:");
+	}
+		
+   static void printelements(int[] a)
+	{
+		System.out.print("the elements are:"); it should not be given here because it will be printed how many times we call the method
+		for(int i=0;i<a.length;i++)
+			{
+			//System.out.print("the elements are:");
+				System.out.print(a[i]+" ");
+			}
+	}
+		
+}
+
+
